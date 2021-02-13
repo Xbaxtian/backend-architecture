@@ -6,5 +6,5 @@ export interface IProduct
 
   SKU: string;
 
-  getContent();
+  getContent(): string;
 }

@@ -1,6 +1,7 @@
 export class Feature
 {
-  name: string;
-
-  description: string;
+  constructor(
+    public name: string,
+    public description: string,
+  ) {}
 }
