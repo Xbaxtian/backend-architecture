@@ -1,0 +1,4 @@
+interface ICamera extends IProduct
+{
+  
+}
