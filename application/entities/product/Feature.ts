@@ -1,4 +1,4 @@
-class Feature
+export class Feature
 {
   name: string;
 

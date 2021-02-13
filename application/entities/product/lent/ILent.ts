@@ -1,4 +1,6 @@
-interface ICamera extends IProduct
+import { IProduct } from "../";
+
+export interface ICamera extends IProduct
 {
   
 }
