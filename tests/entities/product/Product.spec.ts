@@ -9,7 +9,7 @@ describe('Product Entitie', () => {
     const content = product.getContent();
 
     // assertion
-    expect(content).toMatchObject(String);
+    expect(typeof content).toEqual("string");
     expect(content).toBeTruthy();
   });
 })

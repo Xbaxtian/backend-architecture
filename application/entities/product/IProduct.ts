@@ -1,3 +1,5 @@
+import { Feature } from "./Feature";
+
 export interface IProduct
 {
   name: string;
